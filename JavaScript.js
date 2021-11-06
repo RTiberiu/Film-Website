@@ -248,9 +248,7 @@ $(document).ready(function () {
         } else {
            displayContent(newTimeLine);
            // Run home page animations if on home page;
-           console.log(htmlLocation);
            if (htmlLocation === 'index.html' || htmlLocation === 'index.html#') {
-              console.log('It\'s the main page');
               displayPicturesHomePage(newTimeLine);
            };
         };
